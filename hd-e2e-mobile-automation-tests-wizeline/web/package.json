@@ -1,0 +1,37 @@
+{
+  "name": "playwright-project",
+  "version": "1.0.0",
+  "description": "automated software test",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome": "playwright test --config=playwright.config.ts --project=chromium --reporter=junit",
+    "test:firefox": "playwright test --config=playwright.config.ts --project=firefox --reporter=junit",
+    "test:webkit": "playwright test --config=playwright.config.ts --project=webkit --reporter=junit",
+    "test:e2e": "playwright test --config=e2e.config.ts --project=chromium --reporter=junit",
+    "test:safari": "playwright test --config=playwright.config.ts --project=safari --reporter=junit",
+    "test:eslint": "eslint ./tests --fix && playwright test --config=playwright.config.ts --project=chromium --reporter=html"
+  },
+  "keywords": [
+    "automation",
+    "playwright"
+  ],
+  "author": "Eduardo Veloz",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.32.2",
+    "prettier": "^2.7.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.7",
+    "@typescript-eslint/parser": "^5.59.7",
+    "add": "^2.0.6",
+    "dotenv": "^16.0.1",
+    "eslint": "^8.41.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.5.1",
+    "eslint-plugin-playwright": "^0.11.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "typescript": "^4.9.5"
+  }
+}

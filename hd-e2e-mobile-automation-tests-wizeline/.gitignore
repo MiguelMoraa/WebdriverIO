@@ -1,0 +1,66 @@
+#####Common Files#####
+.DS_Store
+
+#####Android Files#####
+
+#Node Packages
+android/node_modules/
+
+#Android builds
+android/builds/
+
+#Report Layer
+android/allure-results/
+android/allure-report/
+android/_results_/
+android/_BSresults_
+
+#Android BrowserStack Files
+android/local.log
+android/browserstack.err
+
+#Other Files
+android/config/
+android/pacjage.json
+android/package-lock.json
+android/.DS_Store
+
+#####iOS Files#####
+
+#Node Packages
+iOS/node_modules/
+
+#iOS builds
+iOS/builds
+
+#Report Layer
+iOS/allure-results/
+iOS/allure-report/
+iOS/_results_/
+iOS/_BSresults_
+
+#iOS BrowserStack Files
+iOS/local.log
+iOS/browserstack.err
+
+#Other Files
+iOS/config/
+iOS/pacjage.json
+iOS/package-lock.json
+iOS/.DS_Store
+
+#####Web Files#####
+#Node Packages
+web/node_modules/
+node_modules/
+
+#Env file
+web/.env
+
+#Reporter
+web/playwright-report/
+web/test-results
+
+#####Connected Devices Files#####
+connected_devices/venv/
+connected_devices/.idea/
