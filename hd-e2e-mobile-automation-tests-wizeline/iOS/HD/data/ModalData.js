@@ -1,0 +1,23 @@
+export const HEADERS = {
+    PAST_CHALLENGES : 'PAST CHALLENGES',
+    FIND_A_DEALER : 'FIND A DEALER',
+    EVENTS : 'EVENTS',
+    ABOUT : 'ABOUT',
+    EDIT_PROFILE : 'EDIT PROFILE',
+    INBOX : 'INBOX',
+    ADD_A_BIKE : 'ADD A BIKE',
+    MY_EVENTS : 'MY EVENTS',
+    MY_RIDES : 'MY RIDES',
+    REGION : 'REGION',
+    BIKE_SETTINGS : 'BIKE SETTINGS',
+    LOGIN : 'LOGIN',
+    NAV_VOICE : 'NAV VOICE'
+}
+
+export const ENCABEZADO = {
+    DIMENSIONES : 'DIMENSIONES'
+}
+
+export const TEXTS = {
+    RECORDED : 'RECORDED'
+}
