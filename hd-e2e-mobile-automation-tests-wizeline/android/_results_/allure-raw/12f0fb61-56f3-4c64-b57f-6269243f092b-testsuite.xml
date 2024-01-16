@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1694742551770' stop='1694742725557'>
+    <name>🧪✨ Test Today Nav Tab features | My Saved Events Section</name>
+    <title>🧪✨ Test Today Nav Tab features | My Saved Events Section</title>
+    <test-cases>
+        <test-case start='1694742551770' status='failed' stop='1694742725555'>
+            <name>TC001 Today Nav Tab | Featured Events for all Regions</name>
+            <title>TC001 Today Nav Tab | Featured Events for all Regions</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='R5CNC1EPZAZ-12'/>
+                <parameter kind='argument' name='device' value='R5CNC1EPZAZ-12'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f68159be-672f-40cf-a40f-8a7d44acd816-attachment.png' type='image/png' size='755548'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`id=carouselPageIndicator`) to be displayed
+                
+                Expected: "displayed"
+                Received: "not displayed"</message>
+                <stack-trace>Error: Expect $(`id=carouselPageIndicator`) to be displayed
+                
+                Expected: "displayed"
+                Received: "not displayed"
+                    at Context.&lt;anonymous> (/Users/miguel.hm/Miguel/Proyectos/Harley-Davidson/Automation/hd-e2e-mobile-automation-tests-wizeline/android/HD/test/Roadmap.test.js:46:68)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
