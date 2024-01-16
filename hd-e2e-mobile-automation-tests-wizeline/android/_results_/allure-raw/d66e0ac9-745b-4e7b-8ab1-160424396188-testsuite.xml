@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1694742753423' stop='1694745339859'>
+    <name>🧪✨ Test Today Nav Tab features | My Saved Events Section</name>
+    <title>🧪✨ Test Today Nav Tab features | My Saved Events Section</title>
+    <test-cases>
+        <test-case start='1694742753424' status='broken' stop='1694745339853'>
+            <name>TC001 Today Nav Tab | Featured Events for all Regions</name>
+            <title>TC001 Today Nav Tab | Featured Events for all Regions</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='R5CNC1EPZAZ-12'/>
+                <parameter kind='argument' name='device' value='R5CNC1EPZAZ-12'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a6fdbd55-0463-4128-9a61-44060a01ef3d-attachment.png' type='image/png' size='14730'/>
+            </attachments>
+            <failure>
+                <message>Can't call elementClick on element with selector "id=agreementCheckbox" because element wasn't found</message>
+                <stack-trace>Error: Can't call elementClick on element with selector "id=agreementCheckbox" because element wasn't found
+                    at TermsAndConditionsPage.tapElement (/Users/miguel.hm/Miguel/Proyectos/Harley-Davidson/Automation/hd-e2e-mobile-automation-tests-wizeline/android/API/Actions.js:33:9)
+                    at TermsAndConditionsPage.checkPrivacyPolicy (/Users/miguel.hm/Miguel/Proyectos/Harley-Davidson/Automation/hd-e2e-mobile-automation-tests-wizeline/android/HD/page/TermsAndConditionsPage.js:16:9)
+                    at Context.&lt;anonymous> (/Users/miguel.hm/Miguel/Proyectos/Harley-Davidson/Automation/hd-e2e-mobile-automation-tests-wizeline/android/HD/test/Roadmap.test.js:41:17)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

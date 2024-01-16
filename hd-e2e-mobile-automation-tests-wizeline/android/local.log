@@ -1,0 +1,9 @@
+
+
+Fri Jul 14 2023 10:13:57:392 GMT-0600 (CST) -- [WARNING] Detected instance of BrowserStackLocal Application, running in onlyAutomate mode to avoid port clash
+Fri Jul 14 2023 10:13:57:401 GMT-0600 (CST) -- [WARNING] Skipping initialisation of configuration console because: port already in use by another Binary
+Fri Jul 14 2023 10:13:58:577 GMT-0600 (CST) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Fri Jul 14 2023 10:13:59:54 GMT-0600 (CST) -- Press Ctrl-C to exit
+
+
