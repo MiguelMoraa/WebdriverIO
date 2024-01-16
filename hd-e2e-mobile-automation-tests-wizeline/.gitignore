@@ -10,10 +10,10 @@ android/node_modules/
 android/builds/
 
 #Report Layer
-#android/allure-results/
-#android/allure-report/
-#android/_results_/
-#android/_BSresults_
+android/allure-results/
+android/allure-report/
+android/_results_/
+android/_BSresults_
 
 #Android BrowserStack Files
 #android/local.log
@@ -34,10 +34,10 @@ iOS/node_modules/
 iOS/builds
 
 #Report Layer
-#iOS/allure-results/
-#iOS/allure-report/
-#iOS/_results_/
-#iOS/_BSresults_
+iOS/allure-results/
+iOS/allure-report/
+iOS/_results_/
+iOS/_BSresults_
 
 #iOS BrowserStack Files
 #iOS/local.log
